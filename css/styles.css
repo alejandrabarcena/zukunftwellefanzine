@@ -1,3 +1,150 @@
-h1 {
+/* ===========================
+   ZUKUNFT WELLE – STYLE BASE
+   Editorial Machine / Blanco y Negro
+   =========================== */
+
+/* ---- TIPOGRAFÍA GLOBAL ---- */
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+  font-family: "Courier Prime", monospace;
+  line-height: 1.6;
+}
+
+/* ---- LINKS ---- */
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
   text-decoration: underline;
+}
+
+/* ---- HEADER ---- */
+.header {
+  border-bottom: 4px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-family: "Special Elite", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* ---- NAV ---- */
+.main-nav {
+  margin-top: 10px;
+}
+.main-nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.main-nav a:hover,
+.main-nav a.active {
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  padding-bottom: 3px;
+}
+
+/* ---- HERO ---- */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom: 2px solid black;
+}
+
+.hero-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "Special Elite", cursive;
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 5px;
+  font-family: "Courier Prime", monospace;
+}
+
+/* ---- TITULOS DE SECCIÓN ---- */
+.section-title {
+  font-size: 1.4rem;
+  margin: 40px 0 15px 0;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+  font-family: "Special Elite", cursive;
+  text-align: center;
+}
+
+/* ---- CONTENEDORES DE SECCIÓN ---- */
+.featured,
+.about,
+.mission,
+.categories-preview,
+.latest {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ---- GRID DE NOTAS DESTACADAS ---- */
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 3px solid black;
+  padding: 20px;
+  background: #fff;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card-category {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-family: "Courier Prime", monospace;
+  font-weight: bold;
+}
+
+.card-title {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Special Elite", cursive;
+}
+
+/* ---- FOOTER ---- */
+.footer {
+  text-align: center;
+  border-top: 4px solid black;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.typewriter-title {
+  font-family: "Special Elite", cursive;
+}
+
+.typewriter-text {
+  font-family: "Courier Prime", monospace;
 }
