@@ -5,10 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kategorien – Zukunft Welle Fanzine</title>
 
-  <!-- SEO & Meta -->
-  <meta name="description" content="Alle Kategorien des Zukunft Welle Fanzine – Ein digitales Magazin für Technologie, Kultur und Zukunftsgestaltung.">
-  <meta name="author" content="Zukunft Welle Fanzine">
-
   <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -44,6 +40,7 @@
       <div class="card"><span class="card-title">FLUCHTGEDANKEN</span></div>
       <div class="card"><span class="card-title">BASSATTACKE</span></div>
       <div class="card"><span class="card-title">NORMBRECHER</span></div>
+      <form></form>
       <div class="card"><span class="card-title">ZUNGENAKROBATIK</span></div>
       <div class="card"><span class="card-title">ECHTZEIT</span></div>
       <div class="card"><span class="card-title">GRENZENLOS</span></div>
