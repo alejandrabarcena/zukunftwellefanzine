@@ -1,6 +1,5 @@
-/* ===========================
+/* =========================== 
    ZUKUNFT WELLE – STYLE BASE
-   Editorial Machine / Blanco y Negro
    =========================== */
 
 /* ---- TIPOGRAFÍA GLOBAL ---- */
@@ -24,7 +23,7 @@ a:hover {
 
 /* ---- HEADER ---- */
 .header {
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid black; /* Mismo grosor de línea */
   padding: 20px;
   text-align: center;
 }
@@ -46,7 +45,7 @@ a:hover {
   color: #000;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 1rem; /* Aumentado tamaño de texto para uniformidad */
 }
 .main-nav a:hover,
 .main-nav a.active {
@@ -57,7 +56,7 @@ a:hover {
 .hero {
   text-align: center;
   padding: 50px 20px;
-  border-bottom: 2px solid black;
+  border-bottom: 4px solid black; /* Mismo grosor de línea */
 }
 
 .hero-title {
@@ -67,7 +66,7 @@ a:hover {
 }
 
 .hero-subtitle {
-  font-size: 1rem;
+  font-size: 1.1rem; /* Ajustado tamaño de fuente para mayor legibilidad */
   font-style: italic;
   margin-top: 5px;
   font-family: "Courier Prime", monospace;
@@ -77,7 +76,7 @@ a:hover {
 .section-title {
   font-size: 1.4rem;
   margin: 40px 0 15px 0;
-  border-bottom: 2px solid black;
+  border-bottom: 4px solid black; /* Mismo grosor de línea */
   padding-bottom: 5px;
   font-family: "Special Elite", cursive;
   text-align: center;
@@ -171,7 +170,7 @@ a:hover {
 /* ---- FOOTER ---- */
 .footer {
   text-align: center;
-  border-top: 4px solid black;
+  border-top: 4px solid black; /* Mismo grosor de línea */
   padding: 30px 20px;
   font-size: 0.9rem;
 }
@@ -191,7 +190,7 @@ a:hover {
 /* ---- DIVIDER PERSONALIZADO (si se quiere usar línea entre secciones) ---- */
 .divider {
   border: none;
-  border-top: 2px solid black;
+  border-top: 4px solid black; /* Mismo grosor de línea */
   width: 80%;
   margin: 2rem auto;
 }
