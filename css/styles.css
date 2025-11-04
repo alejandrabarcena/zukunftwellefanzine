@@ -94,7 +94,7 @@ a:hover {
   margin: 0 auto;
 }
 
-/* ---- GRID DE NOTAS DESTACADAS ---- */
+/* ---- GRID DE NOTAS DESTACADAS Y CATEGORIAS ---- */
 .featured-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -186,4 +186,12 @@ a:hover {
 
 .typewriter-text {
   font-family: "Courier Prime", monospace;
+}
+
+/* ---- DIVIDER PERSONALIZADO (si se quiere usar línea entre secciones) ---- */
+.divider {
+  border: none;
+  border-top: 2px solid black;
+  width: 80%;
+  margin: 2rem auto;
 }
