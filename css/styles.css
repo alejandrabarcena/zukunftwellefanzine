@@ -9,13 +9,15 @@ body {
   background: #fff;
   color: #000;
   font-family: "Courier Prime", monospace;
-  line-height: 1.6;
+  line-height: 1.8; /* Mayor altura de línea para mejor legibilidad */
+  font-size: 1.1rem; /* Aumentado el tamaño de fuente global */
 }
 
 /* ---- LINKS ---- */
 a {
   color: black;
   text-decoration: none;
+  font-size: 1.1rem; /* Aumento del tamaño de los enlaces */
 }
 a:hover {
   text-decoration: underline;
@@ -23,16 +25,16 @@ a:hover {
 
 /* ---- HEADER ---- */
 .header {
-  border-bottom: 4px solid black; /* Mismo grosor de línea */
+  border-bottom: 4px solid black;
   padding: 20px;
   text-align: center;
 }
 
 .logo {
   font-family: "Special Elite", cursive;
-  font-size: 2rem;
+  font-size: 2.5rem; /* Aumento del tamaño del logo */
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 3px; /* Mayor separación de letras */
 }
 
 /* ---- NAV ---- */
@@ -45,7 +47,7 @@ a:hover {
   color: #000;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 1rem; /* Aumentado tamaño de texto para uniformidad */
+  font-size: 1.2rem; /* Aumento del tamaño de los enlaces en el navbar */
 }
 .main-nav a:hover,
 .main-nav a.active {
@@ -56,17 +58,17 @@ a:hover {
 .hero {
   text-align: center;
   padding: 50px 20px;
-  border-bottom: 4px solid black; /* Mismo grosor de línea */
+  border-bottom: 4px solid black;
 }
 
 .hero-title {
-  font-size: 1.8rem;
+  font-size: 2.2rem; /* Aumento de tamaño para mayor impacto */
   font-weight: bold;
   font-family: "Special Elite", cursive;
 }
 
 .hero-subtitle {
-  font-size: 1.1rem; /* Ajustado tamaño de fuente para mayor legibilidad */
+  font-size: 1.3rem; /* Aumento de tamaño para mayor visibilidad */
   font-style: italic;
   margin-top: 5px;
   font-family: "Courier Prime", monospace;
@@ -74,13 +76,13 @@ a:hover {
 
 /* ---- TITULOS DE SECCIÓN ---- */
 .section-title {
-  font-size: 1.4rem;
+  font-size: 1.6rem; /* Aumento de tamaño para los títulos */
   margin: 40px 0 15px 0;
-  border-bottom: 4px solid black; /* Mismo grosor de línea */
+  border-bottom: 4px solid black;
   padding-bottom: 5px;
   font-family: "Special Elite", cursive;
   text-align: center;
-  width: fit-content; /* Ajusta el tamaño de la línea al contenido */
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
 }
